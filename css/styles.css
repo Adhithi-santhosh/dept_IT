@@ -1,21 +1,4 @@
-/* ===================================================
-   TABLE OF CONTENTS
-   1.  GLOBAL STYLES & RESET
-   2.  HEADER & FOOTER
-   3.  REUSABLE COMPONENTS & LAYOUTS
-   4.  HOME PAGE
-   5.  ABOUT PAGE
-   6.  ACADEMICS PAGE
-   7.  FACULTY PAGE
-   8.  PLACEMENT PAGE
-   9.  NOTICE PAGE
-   10. ACHIEVEMENTS PAGE
-   11. CONTACT PAGE
-=================================================== */
 
-/* ===========================================
-   1. GLOBAL STYLES & RESET
-=========================================== */
 * {
     margin: 0;
     padding: 0;
@@ -29,9 +12,9 @@ body {
     line-height: 1.6;
 }
 
-/* ===========================================
-   2. HEADER & FOOTER
-=========================================== */
+/* 
+    HEADER & FOOTER
+ */
 header {
     background-color: #003366;
     color: #fff;
@@ -101,9 +84,9 @@ footer {
     margin-top: 2rem;
 }
 
-/* ===========================================
-   3. REUSABLE COMPONENTS & LAYOUTS
-=========================================== */
+/* 
+    REUSABLE COMPONENTS & LAYOUTS
+ */
 main {
     padding: 3rem 0;
 }
@@ -140,9 +123,9 @@ main {
     margin-bottom: 1rem;
 }
 
-/* ===========================================
-   4. HOME PAGE
-=========================================== */
+/* 
+    HOME PAGE
+ */
 .logo {
     display: flex;
     align-items: center;
@@ -300,9 +283,9 @@ main {
     transform: scale(1.1);
 }
 
-/* ===========================================
-   5. ABOUT PAGE
-=========================================== */
+/* 
+   ABOUT PAGE
+ */
 .campus-card img {
     width: 100%;
     border-radius: 8px;
@@ -324,13 +307,13 @@ main {
 .campus-tag {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #28a745; /* Green color for CAMPUS */
+    color: #28a745; 
     letter-spacing: 1px;
 }
 
-/* Overriding the default .info-card for this page specifically */
+
 .about-page .info-card {
-    background-color: #6c757d; /* Medium Grey */
+    background-color: #6c757d;
     color: #fff;
     padding: 2rem;
     border-radius: 20px;
@@ -358,7 +341,7 @@ main {
 .mission-vision p, 
 .mission-vision li {
     font-size: 0.95rem;
-    color: #f0f2f5; /* Lighter text for readability */
+    color: #f0f2f5; 
     margin-bottom: 1rem;
 }
 
@@ -383,13 +366,13 @@ main {
     width: 90px;
     object-fit: contain;
     background-color: #fff;
-    border-radius: 50%; /* Makes the logos circular */
+    border-radius: 50%; 
     padding: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
-/* ===========================================
-   6. ACADEMICS PAGE (Modern Redesign)
-=========================================== */
+/* 
+   6. ACADEMICS PAGE 
+ */
 
 /* -- Color Palette for this Section -- */
 :root {
@@ -521,7 +504,7 @@ main {
     border: none;
     border-radius: 8px;
     font-size: 1.1rem;
-    width: 40px; /* Fixed size for a cleaner look */
+    width: 40px; 
     height: 40px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -555,7 +538,7 @@ main {
     margin-bottom: 0;
 }
 
-/* Added a wrapper for text content for better layout control */
+
 .download-info {
     text-align: left;
 }
@@ -592,9 +575,9 @@ main {
     box-shadow: 0 4px 15px rgba(74, 105, 189, 0.4);
     transform: scale(1.03);
 }
-/* ===========================================
+/*
    7. FACULTY PAGE
-=========================================== */
+ */
 .faculty-column {
     flex: 3;
 }
@@ -694,9 +677,9 @@ main {
     transform: translateY(-50%);
 }
 
-/* ===========================================
+/* 
    8. PLACEMENT PAGE
-=========================================== */
+ */
 .intro-section {
     max-width: 1200px;
     margin: 3rem auto;
@@ -847,9 +830,9 @@ main {
     color: #555;
 }
 
-/* ===========================================
+/* 
    9. NOTICE PAGE
-=========================================== */
+ */
 .main-container-notice {
     max-width: 1200px;
     margin: 0 auto;
@@ -1008,9 +991,9 @@ main {
     text-align: center;
 }
 
-/* ===========================================
+/* 
    10. ACHIEVEMENTS PAGE
-=========================================== */
+ */
 .achievements-main {
     padding: 3rem 2rem;
 }
@@ -1110,9 +1093,9 @@ main {
     font-weight: 600;
 }
 
-/* ===========================================
+/* 
    11. CONTACT PAGE
-=========================================== */
+ */
 .contact-main {
     padding: 4rem 2rem;
     display: flex;
