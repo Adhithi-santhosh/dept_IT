@@ -715,6 +715,29 @@ main {
     padding: 3rem 0;
 }
 
+/* Additions for the new placement division */
+.student-highlights-section {
+    background-color: #f4f4f9;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.highlights-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.student-highlights-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #003366;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #f0ad4e;
+    display: inline-block;
+}
+
 .records-container {
     max-width: 1200px;
     margin: 0 auto;
