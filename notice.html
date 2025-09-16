@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" href="Icon.jpg" type="image/jpeg">
 </head>
 <body>
 
@@ -39,60 +40,75 @@
 
     <main class="main-container-notice">
         <section class="filter-section">
-            <button class="filter-btn active">Notices</button>
-            <button class="filter-btn">Events</button>
-            <button class="filter-btn">Announcements</button>
-            <button class="filter-btn">Circulars</button>
+            <a href="#notices" class="filter-btn active">Notices</a>
+            <a href="#events" class="filter-btn">Events</a>
+            <a href="#announcements" class="filter-btn">Announcements</a>
+            <a href="#circulars" class="filter-btn">Circulars</a>
         </section>
 
         <div class="content-wrapper">
             <div class="notice-content">
-                <h2>Recent Notices</h2>
+
+                <h2 id="notices">Notices</h2>
                 <div class="notice-grid">
                     <div class="notice-card">
-                        <img src="https://i.imgur.com/K75g1qE.jpg" alt="Calendar">
+                        <img src="images/KTU Academic Calenda.png" alt="Calendar">
                         <div class="card-overlay"></div>
                         <div class="card-content">
                             <h3>Academic Calendar</h3>
                             <a href="#" class="download-btn-small">Download <i class="fa-solid fa-download"></i></a>
                         </div>
                     </div>
+                     <div class="notice-card">
+                        <img src="images/Info text graphic wi.png" alt="Info text graphic">
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h3>General Information</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 id="events">Events</h2>
+                <div class="notice-grid">
                     <div class="notice-card">
-                        <img src="https://i.imgur.com/QhXj5wV.jpg" alt="Abstract blue background">
+                        <img src="images/cbootcamp.jpg" alt="C Bootcamp Poster">
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h3>5 Day C Bootcamp</h3>
+                        </div>
+                    </div>
+                    <div class="notice-card">
+                        <img src="images/figma bootcamp.jpg" alt="Figma Bootcamp Poster">
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h3>Figma Workshop</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <h2 id="announcements">Announcements</h2>
+                <div class="notice-grid">
+                     <div class="notice-card">
+                        <img src="images/Abstract blue backgr.png" alt="Abstract blue background">
                         <div class="card-overlay"></div>
                         <div class="card-content">
                             <h3>Latest Updates</h3>
                         </div>
                     </div>
                     <div class="notice-card">
-                        <img src="https://i.imgur.com/f04tH5F.jpg" alt="Crowd at a concert">
-                        <div class="card-overlay"></div>
-                        <div class="card-content">
-                            <h3>Tech Fest 2025</h3>
-                        </div>
-                    </div>
-                    <div class="notice-card">
-                        <img src="https://i.imgur.com/hG9A03h.jpg" alt="Graduation caps in the air">
+                        <img src="images/Graduation caps in t.png" alt="Graduation caps in the air">
                         <div class="card-overlay"></div>
                         <div class="card-content">
                             <h3>Upcoming Events</h3>
                         </div>
                     </div>
-                     <div class="notice-card">
-                        <img src="https://i.imgur.com/4qD4mYt.jpg" alt="Info text graphic">
-                        <div class="card-overlay"></div>
-                        <div class="card-content">
-                            <h3>General Information</h3>
-                        </div>
-                    </div>
-                     <div class="notice-card">
-                        <img src="https://i.imgur.com/wP4yE2V.jpg" alt="Events note">
-                        <div class="card-overlay"></div>
-                        <div class="card-content">
-                            <h3>Cultural Events</h3>
-                        </div>
-                    </div>
                 </div>
+                
+                <h2 id="circulars">Circulars</h2>
+                <div class="notice-grid">
+                     <p>No circulars to display at the moment.</p>
+                </div>
+
             </div>
 
             <aside class="sidebar">
