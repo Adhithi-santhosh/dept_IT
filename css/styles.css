@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -12,9 +11,7 @@ body {
     line-height: 1.6;
 }
 
-/* 
-    HEADER & FOOTER
- */
+/* HEADER & FOOTER */
 header {
     background-color: #003366;
     color: #fff;
@@ -84,9 +81,7 @@ footer {
     margin-top: 2rem;
 }
 
-/* 
-    REUSABLE COMPONENTS & LAYOUTS
- */
+/* REUSABLE COMPONENTS & LAYOUTS */
 main {
     padding: 3rem 0;
 }
@@ -123,9 +118,7 @@ main {
     margin-bottom: 1rem;
 }
 
-/* 
-    HOME PAGE
- */
+/* HOME PAGE */
 .logo {
     display: flex;
     align-items: center;
@@ -283,9 +276,7 @@ main {
     transform: scale(1.1);
 }
 
-/* 
-   ABOUT PAGE
- */
+/* ABOUT PAGE */
 .campus-card img {
     width: 100%;
     border-radius: 8px;
@@ -317,7 +308,7 @@ main {
     color: #fff;
     padding: 2rem;
     border-radius: 20px;
-    border-top: 2px solid rgba(255, 255, 255, 0.4); /* Subtle top highlight */
+    border-top: 2px solid rgba(255, 255, 255, 0.4); 
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -370,28 +361,24 @@ main {
     padding: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
-/* 
-   6. ACADEMICS PAGE 
- */
 
-/* -- Color Palette for this Section -- */
+/* 6. ACADEMICS PAGE */
 :root {
-    --academic-bg: #f8f9fa; /* Light gray page background */
-    --academic-card-bg: #ffffff; /* White for cards */
-    --academic-primary-text: #212529; /* Dark gray for text */
-    --academic-secondary-text: #6c757d; /* Lighter gray for secondary info */
-    --academic-accent: #4a69bd; /* A professional slate blue */
-    --academic-accent-dark: #3c5aa6; /* Darker blue for hover states */
-    --academic-border: #dee2e6; /* Light border color */
-    --academic-shadow: 0 6px 20px rgba(0, 0, 0, 0.08); /* Softer shadow */
+    --academic-bg: #f8f9fa; 
+    --academic-card-bg: #ffffff; 
+    --academic-primary-text: #212529; 
+    --academic-secondary-text: #6c757d; 
+    --academic-accent: #4a69bd; 
+    --academic-accent-dark: #3c5aa6; 
+    --academic-border: #dee2e6; 
+    --academic-shadow: 0 6px 20px rgba(0, 0, 0, 0.08); 
 }
 
-/* -- Left Column Styling -- */
 .academics-left-image {
     width: 100%;
-    height: 220px; /* Adjusted height for better proportion */
+    height: 220px; 
     object-fit: cover;
-    border-radius: 12px; /* Softer radius */
+    border-radius: 12px; 
     display: block;
     box-shadow: var(--academic-shadow);
     margin-bottom: 2rem;
@@ -416,7 +403,7 @@ main {
 
 .course-grid {
     display: flex;
-    flex-direction: column; /* Stack course types vertically */
+    flex-direction: column; 
     gap: 1.5rem;
 }
 
@@ -424,7 +411,7 @@ main {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Left-align buttons */
+    align-items: flex-start; 
 }
 
 .course-btn,
@@ -441,13 +428,11 @@ main {
     text-align: left;
 }
 
-/* Style for non-active course buttons */
 .course-btn {
     background-color: #f1f3f5;
     color: var(--academic-secondary-text);
 }
 
-/* Style for the currently active course button */
 .course-btn.active {
     background-color: var(--academic-accent);
     color: #fff;
@@ -465,7 +450,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    padding-left: 1rem; /* Indent year options */
+    padding-left: 1rem; 
     border-left: 2px solid var(--academic-border);
 }
 
@@ -479,8 +464,6 @@ main {
     color: #fff;
 }
 
-
-/* -- Right Column Styling -- */
 .semester-selector {
     display: flex;
     justify-content: space-between;
@@ -525,7 +508,7 @@ main {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
-    border-left: 5px solid var(--academic-accent); /* Accent border */
+    border-left: 5px solid var(--academic-accent); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -537,7 +520,6 @@ main {
 .download-card:last-child {
     margin-bottom: 0;
 }
-
 
 .download-info {
     text-align: left;
@@ -575,9 +557,8 @@ main {
     box-shadow: 0 4px 15px rgba(74, 105, 189, 0.4);
     transform: scale(1.03);
 }
-/*
-   7. FACULTY PAGE
- */
+
+/* 7. FACULTY PAGE */
 .faculty-column {
     flex: 3;
 }
@@ -677,9 +658,7 @@ main {
     transform: translateY(-50%);
 }
 
-/* 
-   8. PLACEMENT PAGE
- */
+/* 8. PLACEMENT PAGE */
 .intro-section {
     max-width: 1200px;
     margin: 3rem auto;
@@ -830,9 +809,7 @@ main {
     color: #555;
 }
 
-/* 
-   9. NOTICE PAGE
- */
+/* 9. NOTICE PAGE */
 .main-container-notice {
     max-width: 1200px;
     margin: 0 auto;
@@ -991,9 +968,7 @@ main {
     text-align: center;
 }
 
-/* 
-   10. ACHIEVEMENTS PAGE
- */
+/* 10. ACHIEVEMENTS PAGE */
 .achievements-main {
     padding: 3rem 2rem;
 }
@@ -1093,15 +1068,13 @@ main {
     font-weight: 600;
 }
 
-/* 
-   11. CONTACT PAGE
- */
+/* 11. CONTACT PAGE */
 .contact-main {
     padding: 4rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 200px); /* Adjust based on header/footer height */
+    min-height: calc(100vh - 200px); 
 }
 
 .contact-wrapper {
@@ -1186,5 +1159,101 @@ main {
     color: #fff;
 }
 
+/* Responsiveness starts here */
+@media (max-width: 992px) {
+    .main-container,
+    .achievements-container,
+    .intro-section,
+    .contact-wrapper,
+    .records-content,
+    .content-wrapper {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
 
+    .left-column,
+    .right-column,
+    .faculty-column,
+    .research-column {
+        flex: auto;
+    }
 
+    .records-container h2 {
+        display: block;
+        text-align: center;
+    }
+
+    .stats-cards {
+        width: 100%;
+    }
+
+    .chart-container {
+        width: 100%;
+        height: 250px;
+    }
+
+    .notice-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-right {
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    nav ul li a {
+        padding: 0.5rem 0;
+    }
+
+    .social-media {
+        margin-bottom: 1rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .tagline {
+        font-size: 1.2rem;
+    }
+
+    .faculty-table-container table {
+        min-width: 600px;
+    }
+
+    .achievement-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card-header {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .quick-links-section {
+        flex-direction: column;
+    }
+
+    .quick-link-card {
+        min-width: 100%;
+    }
+    
+    .logo-container {
+        flex-direction: column;
+    }
+}
